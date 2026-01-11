@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson - Clean Code & SRP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    
+</head>
+<body class="module-page">
+    <nav class="navbar">
+        <a href="cours2(Y2).html" style="color: white; text-decoration: none; font-weight: 800; letter-spacing: 1px;">← EXIT LESSON</a>
+    </nav>
+
+    <header class="hero" style="padding: 100px 20px;">
+        <div class="english-word" style="letter-spacing: 5px; color: var(--primary-purple);">CRAFTSMANSHIP</div>
+        <h1 style="font-size: 4rem; background: linear-gradient(to right, #fff, #7c3aed); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">CLEAN CODE</h1>
+        <p style="font-size: 1.5rem; max-width: 700px; margin: 20px auto;">"Code is read much more often than it is written."</p>
+    </header>
+
+    <main class="main-container" style="max-width: 900px; margin: 0 auto; padding-bottom: 100px;">
+        
+        <section class="presentation-card">
+            <div class="big-number">01</div>
+            <div class="logic-step">
+                <div class="status-dot"></div>
+                <h2 style="margin:0; color: var(--primary-purple);">SRP: Single Responsibility</h2>
+            </div>
+            <p style="font-size: 1.2rem; line-height: 1.6; color: #cbd5e1;">
+                A component or function should have <strong>one, and only one, reason to change</strong>. If a module handles logic, database, and UI at the same time, it becomes fragile and hard to test.
+            </p>
+        </section>
+
+        <section class="presentation-card">
+            <div class="big-number">02</div>
+            <div class="logic-step">
+                <div class="status-dot"></div>
+                <h2 style="margin:0; color: var(--primary-purple);">Meaningful Naming</h2>
+            </div>
+            <p style="font-size: 1.2rem; line-height: 1.6; color: #cbd5e1;">
+                Names should reveal intent. Avoid cryptic variables like <i>"data"</i> or <i>"temp"</i>. Clean code acts as its own documentation, making comments almost unnecessary.
+            </p>
+        </section>
+
+        <section class="presentation-card">
+            <div class="big-number">03</div>
+            <div class="logic-step">
+                <div class="status-dot"></div>
+                <h2 style="margin:0; color: var(--primary-purple);">Eliminate Dead Code</h2>
+            </div>
+            <p style="font-size: 1.2rem; line-height: 1.6; color: #cbd5e1;">
+                Commented-out code is digital noise. According to your course, "we might need this later" leads to hoarding. Trust your <strong>Version Control (Git)</strong> to remember the past; keep your present code clean.
+            </p>
+        </section>
+
+    </main>
+</body>
+</html>
